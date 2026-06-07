@@ -184,25 +184,16 @@
   </main>
 
   <!-- ── Footer ── -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <span class="footer-logo">Lumi<span>u</span></span>
-      <nav class="footer-nav" aria-label="Footer navigation">
-        <a href="imprint.html">Imprint</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms &amp; Conditions</a>
-      </nav>
-      <p class="footer-copy">
-        &copy; <span id="footer-year"></span> Lumiu. All rights reserved.
-      </p>
-    </div>
-  </footer>
+<div id="site-footer"></div>
 
   <script>
       fetch('header.html')
     .then(r => r.text())
     .then(html => document.getElementById('site-header').innerHTML = html);
-    document.getElementById('footer-year').textContent = new Date().getFullYear();
+    
+      fetch('footer.html')
+    .then(r => r.text())
+    .then(html => document.getElementById('site-footer').innerHTML = html);
     document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-GB', {
       day: 'numeric', month: 'long', year: 'numeric'
     });
