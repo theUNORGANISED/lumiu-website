@@ -8,13 +8,16 @@
 }
 
 :root {
-  --ink: #0f0e0c;
-  --paper: #faf8f4;
-  --cream: #f2ede4;
-  --accent: #c8702a;
-  --accent-light: #e8a96a;
-  --muted: #8a8278;
-  --border: #ddd8cf;
+  --ink: #1E1B2E;
+  --paper: #FFFFFF;
+  --cream: #F7F3F9;
+  --accent: #CCA5C4;
+  --accent-dark: #3a1f35;
+  --accent-light: #EADAE2;
+  --muted: #8A879A;
+  --border: #EADAE2;
+  --divider: #F0EEF8;
+  --shadow: rgba(60, 40, 100, 0.18);
 
   --font-display: 'Poppins', system-ui, sans-serif;
   --font-body: 'Poppins', system-ui, sans-serif;
@@ -296,8 +299,8 @@ a:hover {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 60% at 20% 50%, rgba(200, 112, 42, 0.06) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 80% at 80% 30%, rgba(200, 112, 42, 0.04) 0%, transparent 60%);
+    radial-gradient(ellipse 70% 60% at 20% 50%, rgba(204, 165, 196, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 80% at 80% 30%, rgba(204, 165, 196, 0.08) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -388,7 +391,7 @@ a:hover {
 }
 
 .notify-btn:hover {
-  background: var(--ink);
+  background: var(--accent-dark);
 }
 
 .coming-soon-features {
