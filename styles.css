@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 /* ─── Reset & Base ─── */
 *, *::before, *::after {
@@ -20,7 +22,7 @@
   --shadow: rgba(60, 40, 100, 0.18);
 
   --font-display: 'Poppins', system-ui, sans-serif;
-  --font-body: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Source Code Pro', system-ui, monospace;
 
   --space-xs: 0.5rem;
   --space-sm: 1rem;
