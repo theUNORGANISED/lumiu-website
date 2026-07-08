@@ -20,6 +20,7 @@
   --border: #EADAE2;
   --divider: #F0EEF8;
   --shadow: rgba(60, 40, 100, 0.18);
+  --text: #3a3732;
 
   --font-display: 'Poppins', system-ui, sans-serif;
   --font-body: 'Source Code Pro', system-ui, monospace;
@@ -276,6 +277,7 @@ a:hover {
   margin-top: var(--space-sm);
   font-size: 0.95rem;
   line-height: 1.8;
+  color: var(--text);
 }
 
 .contact-block strong {
